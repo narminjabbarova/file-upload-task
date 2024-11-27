@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+
+.container{
+  padding: 5% 0;
+  width: 60%;
+  margin: auto;
+}
+
+.drop-box{
+  background-color: rgb(207, 226, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  border: 4.5px dashed blue;
+  border-radius: 10px;
+}
+.drop-box i{
+  text-align: center;
+  font-size: 4rem;
+  cursor: pointer;
+  color: blue;
+}
+
+.remove{
+margin: 20px 0;
+width: 10%;
+padding: 1% 0;
+background-color: blue;
+color: white;
+border: none;
+border-radius: 6px;
+cursor: pointer;
+}
+
+table{
+  border-radius: 10px;
+  overflow: hidden;
+}
